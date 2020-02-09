@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 
 class Program
@@ -12,19 +12,19 @@ class Program
 	static readonly Random random = new Random();
 	static (int X, int Y) Position;
 
-    // C major scale, starting with middle C
-    static readonly int[] frequencies = new int[]
-    {
-        262,
-        294,
-        330,
-        349,
-        392,
-        440,
-        494,
-        523,
-        587,
-    };
+	// C major scale, starting with middle C
+	static readonly int[] frequencies = new int[]
+	{
+		262,
+		294,
+		330,
+		349,
+		392,
+		440,
+		494,
+		523,
+		587,
+	};
 
 	static void Main()
 	{
